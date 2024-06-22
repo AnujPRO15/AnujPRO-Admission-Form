@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnujPRO Coding World</title>
+    <link rel="SHORTCUT ICON" href="anujpro_2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+    *{
+        touch-action: pan-x;
+        touch-action: pan-y;
+        padding: 0;
+        margin: 0;
+        color: bisque;
+    }
+
+    body{
+      background: url(background3.webp);
+      background-repeat: repeat;
+      opacity: 0.9;
+    }
+
+     
+   
+    /* body{
+  background: url('https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg');
+} */
+
+    .A{
+        float: left;
+       
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+  .A{
+        float: left;
+       
+    }
+
+
+
+
+
+
+
+
+
+    .light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgba(88, 101, 242, 1);
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgba(88, 101, 242, 1);
+  outline: rgba(88, 101, 242, 1) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 101, 242, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+
+
+
+/* file uploading star */
+
+.Neon {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #494949;
+    position: relative;
+    
+
+}
+.Neon * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Neon-input-dragDrop {
+    display: block;
+
+
+    width: 143px;
+    
+    
+    margin: 0 auto 25px auto;
+    padding: 25px;
+    color: #8d9499;
+    color: #97A1A8;
+    background: #fff;
+    border: 2px dashed #C8CBCE;
+    text-align: center;
+    -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+    -moz-transition: box-shadow 0.3s, border-color 0.3s;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+.Neon-input-dragDrop .Neon-input-icon {
+    font-size: 48px;
+    margin-top: -10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.Neon-input-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.Neon-input-text span {
+    font-size: 12px;
+}
+.Neon-input-choose-btn.blue {
+    color: #008BFF;
+    border: 1px solid #008BFF;
+}
+.Neon-input-choose-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d9496;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+
+}
+  
+
+.Neon {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #494949;
+    position: relative;
+    
+
+}
+.Neon * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Neon-input-dragDrop {
+    display: block;
+    width: 143px;
+    margin: 0 auto 25px auto;
+    padding: 25px;
+    color: #8d9499;
+    color: #97A1A8;
+    background: #fff;
+    border: 2px dashed #C8CBCE;
+    text-align: center;
+    -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+    -moz-transition: box-shadow 0.3s, border-color 0.3s;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+.Neon-input-dragDrop .Neon-input-icon {
+    font-size: 48px;
+    margin-top: -10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.Neon-input-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.Neon-input-text span {
+    font-size: 12px;
+}
+.Neon-input-choose-btn.blue {
+    color: #008BFF;
+    border: 1px solid #008BFF;
+}
+.Neon-input-choose-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d9496;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+
+
+    .light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgba(88, 101, 242, 1);
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgba(88, 101, 242, 1);
+  outline: rgba(88, 101, 242, 1) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 101, 242, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+</style>
+
+
+<body>
+    
+<fieldset style="border: solid 5px black;">
+
+<center>
+<div class="full-form">
+
+    <div class="logo">
+    
+    <img src="anujpro_2.png" style="border-radius: 15px; border: solid 1px bisque;"  height="120px" width="120px" alt="">
+    
+    </div>
+
+<marquee behavior="" direction="">
+    <a style="font-weight: 550; font-size: 30px; color: rgb(0, 0, 0); font-family: Orbitron, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;"><hr>
+     AnujPRO Coding World
+    <hr>
+    </a>    
+  </marquee>
+    
+  
+    <br><a style="font-size: 20px; color: black;">We Believe in </a>
+    
+    <br><a style="font-size: 20px; color: black;">Learning Together</a>
+
+
+
+    
+</div>        
+
+</center>
+
+  <!-- <img src="Sale.png" height="150px" width="120px" style="float: right; border: solid 3px rgb(0, 247, 255);" alt="Image Not Found"> -->
+
+<!--   
+  <div class="Neon Neon-theme-dragdropbox">
+    <input style="z-index: 999; opacity: 0; width: 320px; height: 200px; position: absolute; right: 0px; left: 0px; margin-right: auto; margin-left: auto;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+    <div class="Neon-input-dragDrop"><div class="Neon-input-inner"><div class="Neon-input-icon"><i class="fa fa-file-image-o"></i></div><div class="Neon-input-text"><h3>Drag&amp;Drop Profile Image</h3> <span style="display:inline-block; margin: 15px 0">or</span></div><a class="Neon-input-choose-btn blue">Browse Files</a></div></div></div> -->
+
+
+<center>
+<br><br>
+<a style=" font-size: 20px; color: black; font-weight: 550;">
+  Admission Form (2024-2025)
+</b>
+</center>
+<br><br>
+
+<b style="font-size: 20px;">
+    <div class="A">
+    Name: <input type="text" name="yname" id="yname" size="34" placeholder="Enter your Name" style="border: solid 1px; color: rgb(0, 0, 0);">
+<br>
+<br>    
+    Mother Name: <input type="text" name="mname" id="mname" size="23" placeholder="Enter your Mother Name" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+<br>
+    <br>    
+    Father Name:
+    <input type="text" name="fname" id="fname" size="24.5" placeholder="Enter your Father Name" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+<br>
+    <br>    
+    Date of Birth:
+    <input type="date" name="dob" id="dob" size="50" placeholder="Enter Your D.O.B" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+<br>
+    <br>    
+    Gender: 
+    ‎ ‎ ‎ ‎ 
+    <!-- Male -->
+    <input type="text" name="gen" id="gen" size="29" placeholder="Enter your Gender" style="border: solid 1px; color: rgb(0, 0, 0);">
+    ‎ ‎ ‎ ‎ 
+    <!-- Female<input type="text" name="gen" id="gen" size="50" style="border: solid 1px;"> -->
+    
+<br>
+    <br>    
+    Resident Address:
+  
+    <textarea name="adrs" id="adrs" size="50" placeholder="Enter your Address" style="border: solid 1px; color: rgb(0, 0, 0);"></textarea>
+
+
+<br><br>
+
+
+    Aadhar Card No:<input type="text" name="ano" id="ano" size="20" placeholder="Enter your Aadhar No." maxlength="12" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+    <br>
+    <br>    
+    Class:
+    <input type="text" name="klass" id="klass" size="35" placeholder="Enter your Class" maxlength="2" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+<br>
+    <br>    
+    Father's Phone no:
+
+    <input type="text" name="fno" id="fno" size="17" placeholder="Enter 10-digit Mob No." maxlength="10" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+    <br>
+    <br>    
+    Mother's Phone no:
+    
+  <input type="text" name="mno" id="mno" size="16" placeholder="Enter 10-digit Mob No" maxlength="10" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+    <br><br>    
+    Email Id:
+  
+    <input type="text" name="emall" id="emall" size="31" placeholder="Enter your Email Id" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+
+    <br><br>    
+    Course:
+  
+    <input type="text" name="course" id="course" size="33" placeholder="Enter the course" style="border: solid 1px; color: rgb(0, 0, 0);">
+
+<br><br><br><br>
+</div>
+
+
+<center>
+
+  <b style="font-size: 25px;">
+    
+      Declaration
+  
+  </b>
+
+  <br>
+
+</center>
+
+
+
+<br>
+<a style="font-size: 13px;">
+<center>
+  Fees will be 1200 per month ,I hereby, declaration that I will obey all the <br>
+  rule and regulation of the institution, and be fully responsible for violating  <br>
+  the rules.</center> 
+  
+  
+  <!-- <br>
+  
+  <br> -->
+  
+  
+<center>
+
+<a style="font-size: 19px;">
+
+  <!-- Applicant's Signature -->
+
+  <!-- <input type="file" id="myFile" name="filename"> -->
+
+</a>
+
+</center>
+
+</a>
+
+
+<center>
+  <a href="#" style="text-decoration: none;" onclick="sendWA()">
+  <div class="light-button">
+      <button class="bt">
+        <div class="light-holder">
+          <div class="dot"></div>
+          <div class="light"></div>
+        </div>
+        <div class="button-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+              <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+           </svg>
+          <p style="font-size: 20px;">Submit</p>
+      </div>
+      </button>
+    </div>
+  </a>
+    <br>
+    <br>
+
+</b>
+
+<a style="color: black; font-size: 14px; font-weight: 550;"><sub>**</sub> Click This Black Button For submitting the form <sub>**</sub></a>
+
+<br>
+
+<a style="color: black; font-size: 13px; font-weight: 600;"><sub>**</sub>Click This Black Button For 3 Seconds to see the effect<sub>**</sub></a>
+
+</center>
+
+<br><br>
+
+
+<center style="letter-spacing: 20px;">
+
+
+    
+  <a href="mailto:piyushcool1519@gmail.com">
+
+    <img src="gmail-icon-free-png.jpg"  width="60px" height="60px" alt="Image Not Found"></a>    
+  
+       <a href="tel:9580290355">
+      <img src="whatsapp-logo-transparent-1.jpg"   height="65px"  width="65px" alt="Image Not Found"> </a></h2>
+  
+  <a href="https://www.facebook.co/" target="_blank" class="footer__social-link">
+    <img src="fb-3.jpg" width="50px" height="50px" alt="Image Not Found" height="100px">
+    <i class="ri-facebook-circle-fill"></i>
+  </a>
+  <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+    <img src="twitter-2.jpg" alt="Image Not Found"  width="45px" height="45px">
+    <i class="ri-twitter-fill"></i>
+  </a>
+  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+    <img src="instagram-1.webp" alt="Image Not Found"  width="50px" height="50px">
+    <i class="ri-instagram-line"></i>
+  </a>
+  
+<P style="font-size: 20px; font-weight: 550; background: black; font-family: Orbitron, sans-serif;
+font-optical-sizing: auto;
+font-style: normal;">THANKS FOR VISITIG US</P>
+
+</center>
+
+
+
+
+
+</fieldset>
+
+
+<script>
+   
+   
+function sendWA() {
+	let yname = document.getElementById('yname');
+	let mname = document.getElementById('mname');
+	let fname = document.getElementById('fname');
+  let dob = document.getElementById('dob');
+	let gen = document.getElementById('gen');
+	let adrs = document.getElementById('adrs');
+	let klass = document.getElementById('klass');
+	let fno = document.getElementById('fno');
+	let mno = document.getElementById('mno');
+  let emall = document.getElementById('emall');
+  let myFile = document.getElementById('myFile');
+  let filer_input2 = document.getElementById('filer_input2');
+  let course = document.getElementById('course');
+
+
+    let mobileNumber = 9580290355; 
+
+
+
+	if (yname.value.trim() == "") {
+		yname.style.background = "lightpink";
+		yname.style.border = "4px solid red";
+		alert('Please Enter your Name');
+		return false;
+	}
+
+
+  if (mname.value.trim() == "") {
+		mname.style.background = "lightpink";
+		mname.style.border = "4px solid red";
+		alert('Please Enter your Mother Name');
+		return false;
+	}
+
+  if (fname.value.trim() == "") {
+		fname.style.background = "lightpink";
+		fname.style.border = "4px solid red";
+		alert('Please Enter your Father Name');
+		return false;
+	}
+
+  if (dob.value.trim() == "") {
+		dob.style.background = "lightpink";
+		dob.style.border = "4px solid red";
+		alert('Please Enter your Date of Birth');
+		return false;
+	}
+
+
+  if (gen.value.trim() == "") {
+		gen.style.background = "lightpink";
+		gen.style.border = "4px solid red";
+		alert('Please Enter your Gender');
+		return false;
+	}
+
+  if (adrs.value.trim() == "") {
+		adrs.style.background = "lightpink";
+		adrs.style.border = "4px solid red";
+		alert('Please Enter your Residental Address');
+		return false;
+	}
+
+  if (klass.value.trim() == "") {
+		klass.style.background = "lightpink";
+		klass.style.border = "4px solid red";
+		alert('Please Enter your Class');
+		return false;
+	}
+
+
+  if (fno.value.trim() == "") {
+		fno.style.background = "lightpink";
+		fno.style.border = "4px solid red";
+		alert('Please Enter your Father Mobile No.');
+		return false;
+	}
+
+  if (mno.value.trim() == "") {
+		mno.style.background = "lightpink";
+		mno.style.border = "4px solid red";
+		alert('Please Enter your Mother Mobile No.');
+		return false;
+	}
+
+
+  if (emall.value.trim() == "") {
+		emall.style.background = "lightpink";
+		emall.style.border = "4px solid red";
+		alert('Please Enter your Email');
+		return false;
+	}
+
+  if (course.value.trim() == "") {
+		course.style.background = "lightpink";
+		course.style.border = "4px solid red";
+		alert('Please Enter your Course');
+		return false;
+	}
+
+
+
+
+
+
+
+	let url = `https://wa.me/${mobileNumber}?text=` + "Name: " + yname.value + "%0a" + "Mother Name: " + mname.value + "%0a" + "Father Name: " + fname.value + "%0a" + "Date of Birth: " + dob.value + "%0a" + "Gender: " + gen.value + "%0a" + "Address: " + adrs.value + "%0a" + "Addhar Number: " + ano.value + "%0a" + "Class: " + klass.value + "%0a" + "Father Mob No: " + fno.value + "%0a" + "Mother Mob No: " + mno.value + "%0a" + "Email: " + emall.value + "%0a" + "Course: " + course.value;
+
+	window.open(url, '_blank').focus();
+}
+</script>
+
+
+
+ <!-- <center>
+        <b style="font-size: 25px;">
+            Declaration
+        </b>
+        <br>
+        <b>
+        </b>
+    </center>
+<br>
+    <b>
+<center>
+        Fees will be 1200 per month ,I hereby, declaration that I will obey all the <br>
+        rule and regulation of the institution, and be fully responsible for violating  <br>
+        the rules.</center> 
+        <br>
+        <br>
+        <br>
+Applicant's Signature
+<a style="float: right;">
+Authorizer's Signature
+</a>
+<br><br>
+    </b> -->
+
+
+<!-- 
+<div class="C">
+
+<input type="text" name="yname" id="yname" size="50">
+
+<br><br>
+
+<input type="text" name="mname" id="mname" size="50">
+
+<br><br>
+
+<input type="text" name="fname" id="fname" size="50">
+
+<br><br>
+
+<input type="date" name="dob" id="dob" size="50">
+
+<br><br>
+
+<input type="radio" name="gen" id="gen" size="50">
+
+<br><br>
+
+<textarea name="adrs" id="adrs" size="50"></textarea>
+
+<br><br>
+
+<input type="text" name="ano" id="ano" size="50" maxlength="12">
+
+<br><br>
+
+<input type="text" name="klass" id="klass" size="50" maxlength="2">
+
+<br><br>
+
+<input type="text" name="fno" id="fno" size="50" maxlength="10">
+
+<br><br>
+
+<input type="text" name="mno" id="mno" size="50" maxlength="10">
+
+<br><br>
+
+<input type="text" name="emall" id="emall" size="50">
+
+</div> -->
+
+<!-- <script>
+
+
+function sendWA() {
+	let yname = document.getElementById('yname');
+	let mname = document.getElementById('mname');
+	let fname = document.getElementById('fname');
+  let dob = document.getElementById('dob');
+	let gen = document.getElementById('gen');
+	let adrs = document.getElementById('adrs');
+	let klass = document.getElementById('klass');
+	let fno = document.getElementById('fno');
+	let mno = document.getElementById('mno');
+  let emall = document.getElementById('emall');
+  let myFile = document.getElementById('myFile');
+
+
+    let mobileNumber = 9580290355; 
+
+	if (name.value.trim() == "") {
+		name.style.background = "lightpink";
+		name.style.border = "4px solid red";
+		alert('Please Enter your Name');
+		return false;
+	}
+
+    
+	let url = `https://wa.me/${mobileNumber}?text=` + "Name: " + name.value + "%0a" + "Email ID: " + email.value + "%0a" + "Message: " + textInput.value;
+
+window.open(url, '_blank').focus();
+
+
+}
+
+
+</script> -->
+
+
+</body>
+</html>
